@@ -1,0 +1,87 @@
+/* === grille S4/M12/L12 // FLEXBOX === */
+
+/* Conteneurs */
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Marges flexbox */
+
+.between {
+    justify-content: space-between;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+/* Colonnes small */
+
+.col-s-4 {
+    width: 93.89%;
+    flex-basis: 93.89%;
+}
+
+.col-s-3 {
+    width: 69.72%;
+    flex-basis: 69.72%;
+}
+
+.col-s-2 {
+    width: 45.56%;
+    flex-basis: 45.56%;
+}
+
+.col-s-1 {
+    width: 21.39%;
+    flex-basis: 21.39%;
+}
+
+/* Colonnes medium */
+@media screen and (min-width: 768px) {
+
+    .col-m-3 {
+        width: 30.86%;
+        flex-basis: 30.86%;
+    }
+
+    .col-m-6 {
+        width: 47.26%;
+        flex-basis: 47.26%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .col-l-6 {
+        width: 48.60%;
+        flex-basis: 48.60%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* Centrage */
+
+.grid_center {
+    margin: 0 auto;
+}
